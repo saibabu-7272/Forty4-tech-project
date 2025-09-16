@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# User Dashboard - React Frontend Application
+![Dash Board View](./images/user_dashboard-1.png)
+![User Profile View](./images/user_dashboard-1.png)
+![Create New User form](./images/user_dashboard-1.png)
+![React](https://img.shields.io/badge/React-19-blue)
+![React Router](https://img.shields.io/badge/React%20Router-6-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 Overview
 
-## Available Scripts
+A modern User Dashboard application built with React.js that displays user information from a REST API. The application features a sleek glass-morphism design with a responsive layout and intuitive user interface.
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+- **Dashboard Page:**
+  - Displays a list of users in a modern card layout
+  - Search functionality to filter users by name
+  - "Create New User" form (client-side only)
+  
+- **User Details Page:**
+  - View complete user information including address and geo-location
+  - Contact details and company information
+  
+- **Modern UI:**
+  - Glass-morphism design with blur effects and transparency
+  - Gradient backgrounds and sleek animations
+  - Fully responsive layout that works on all device sizes
+  
+- **State Management:**
+  - Uses React Context API for global state management
+  - Efficient data fetching and state updates
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js:** Functional components with hooks
+- **React Router:** For handling client-side navigation
+- **Fetch API:** For making HTTP requests to the JSON Placeholder API
+- **React Context:** For global state management
+- **CSS:** Modern styling with glass-morphism effects
 
-### `npm test`
+## 📦 Installation & Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
+   ```bash
+   git clone [repository-url]
+   cd user_dashboard
+   ```
 
-### `npm run build`
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📱 Application Structure
 
-### `npm run eject`
+```
+src/
+├── components/
+│   ├── Dashboard/
+│   │   └── Dashboard.js
+│   ├── UserDetails/
+│   │   └── UserDetails.js
+│   ├── NewUserForm/
+│   │   └── NewUserForm.js
+│   └── Navbar/
+│       └── Navbar.js
+├── context/
+│   └── UserContext.js
+├── App.js
+├── App.css
+├── index.js
+└── index.css
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔍 API Integration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application uses the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users) to fetch user data. The data structure includes:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- User personal information (name, username, email)
+- Contact details (phone, website)
+- Company information
+- Address with geo-location
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎨 UI Design
 
-## Learn More
+The application features a modern design with:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Glass-morphism effect for cards and UI elements
+- Gradient backgrounds with subtle patterns
+- Responsive layout that adapts to different screen sizes
+- Clean typography and intuitive navigation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Available Scripts
 
-### Code Splitting
+- `npm start` - Run the app in development mode
+- `npm test` - Launch the test runner
+- `npm run build` - Build the app for production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was created as part of the Forty4 Tech Frontend Intern Assignment.
