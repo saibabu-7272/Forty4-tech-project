@@ -10,6 +10,8 @@
 
 A modern User Dashboard application built with React.js that displays user information from a REST API. The application features a sleek glass-morphism design with a responsive layout and intuitive user interface.
 
+**Live Link:** [https://forty4-user-dashboard.vercel.app/](https://forty4-user-dashboard.vercel.app/)
+
 ## 🌟 Features
 
 - **Dashboard Page:**
@@ -18,7 +20,7 @@ A modern User Dashboard application built with React.js that displays user infor
   - "Create New User" form (client-side only)
   
 - **User Details Page:**
-  - View complete user information including address and geo-location
+  - View complete user information, including address and geo-location
   - Contact details and company information
   
 - **Modern UI:**
@@ -106,4 +108,4 @@ The application features a modern design with:
 
 ---
 
-This project was created as part of the Forty4 Tech Frontend Intern Assignment.
+This project was created as part of the Forty4 Tech Frontend Assignment.
