@@ -2,9 +2,7 @@
 ![Dash Board View](./images/user_dashboard-1.png)
 ![User Profile View](./images/user_dashboard-1.png)
 ![Create New User form](./images/user_dashboard-1.png)
-![React](https://img.shields.io/badge/React-19-blue)
-![React Router](https://img.shields.io/badge/React%20Router-6-orange)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 
 ## 📋 Overview
 
